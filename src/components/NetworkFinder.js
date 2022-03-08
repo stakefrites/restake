@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer } from 'react';
 import { useParams, useNavigate } from "react-router-dom";
 import Network from '../utils/Network.mjs'
-import { overrideNetworks } from '../utils/Helpers.mjs'
+import { overrideNetworks, mapAsync } from '../utils/Helpers.mjs'
 import App from './App';
 
 import {
@@ -9,6 +9,7 @@ import {
 } from 'react-bootstrap';
 
 import networksData from '../networks.json';
+import axios from 'axios';
 
 function NetworkFinder() {
   const params = useParams();
@@ -21,7 +22,17 @@ function NetworkFinder() {
 
   const getNetworks = () => {
     let data = networksData
+    let map = mapAsync(data, (network) => {
+      if (network.enabled !== false && network.cosmosDirectory) {
+        return axios.get("https://registry.cosmos.directory/" + network.name).then(data => data.data)
+      } else if (network.enabled !== false && network.cosmosDirectory !== true) {
+        return network
+      } else { 
+        return network
+      }
+    }).then(data=>console.log(data))
     return data.filter(el => el.enabled !== false).reduce((a, v) => ({ ...a, [v.name]: v}), {})
+    //return map.then(data=>data)
   }
 
   const changeNetwork = (network, validators) => {
