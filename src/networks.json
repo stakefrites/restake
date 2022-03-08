@@ -1,6 +1,7 @@
 [
   {
     "name": "osmosis",
+    "cosmosDirectory": true,
     "prettyName": "Osmosis",
     "chainId": "osmosis-1",
     "prefix": "osmo",
@@ -114,6 +115,7 @@
   },
   {
     "name": "juno",
+    "cosmosDirectory": true,
     "prettyName": "Juno",
     "chainId": "juno-1",
     "prefix": "juno",
@@ -249,6 +251,7 @@
   },
   {
     "name": "cosmoshub",
+    "cosmosDirectory": true,
     "prettyName": "Cosmos Hub",
     "chainId": "cosmoshub-4",
     "prefix": "cosmos",
@@ -301,6 +304,7 @@
   },
   {
     "name": "akash",
+    "cosmosDirectory": true,
     "prettyName": "Akash",
     "chainId": "akashnet-2",
     "prefix": "akash",
@@ -369,6 +373,7 @@
   },
   {
     "name": "chihuahua",
+    "cosmosDirectory": true,
     "prettyName": "Chihuahua",
     "chainId": "chihuahua-1",
     "prefix": "chihuahua",
@@ -499,6 +504,7 @@
   },
   {
     "name": "gravitybridge",
+    "cosmosDirectory": true,
     "prettyName": "Gravity Bridge",
     "chainId": "gravity-bridge-3",
     "prefix": "gravity",
@@ -550,6 +556,7 @@
   },
   {
     "name": "regen",
+    "cosmosDirectory": true,
     "prettyName": "Regen Network",
     "chainId": "regen-1",
     "prefix": "regen",
@@ -575,6 +582,7 @@
   },
   {
     "name": "terra",
+    "cosmosDirectory": true,
     "prettyName": "Terra",
     "chainId": "columbus-5",
     "prefix": "terra",
@@ -606,6 +614,7 @@
   },
   {
     "name": "sentinel",
+    "cosmosDirectory": true,
     "prettyName": "Sentinel",
     "chainId": "sentinelhub-2",
     "prefix": "sent",
@@ -663,6 +672,7 @@
   },
   {
     "name": "dig",
+    "cosmosDirectory": true,
     "prettyName": "Dig Chain",
     "chainId": "dig-1",
     "prefix": "dig",
@@ -727,6 +737,7 @@
   },
   {
     "name": "bitcanna",
+    "cosmosDirectory": true,
     "prettyName": "BitCanna",
     "chainId": "bitcanna-1",
     "prefix": "bcna",
@@ -760,6 +771,7 @@
   },
   {
     "name": "emoney",
+    "cosmosDirectory": true,
     "prettyName": "e-Money",
     "chainId": "emoney-3",
     "prefix": "emoney",
@@ -812,6 +824,7 @@
   },
   {
     "name": "kava",
+    "cosmosDirectory": true,
     "prettyName": "Kava",
     "chainId": "kava-9",
     "prefix": "kava",
@@ -844,6 +857,7 @@
   },
   {
     "name": "desmos",
+    "cosmosDirectory": true,
     "prettyName": "Desmos",
     "chainId": "desmos-mainnet",
     "prefix": "desmos",
@@ -894,6 +908,7 @@
   },
   {
     "name": "cryptoorgchain",
+    "cosmosDirectory": true,
     "prettyName": "Crypto.org",
     "chainId": "crypto-org-chain-mainnet-1",
     "prefix": "cro",
@@ -922,6 +937,7 @@
   },
   {
     "name": "evmos",
+    "cosmosDirectory": true,
     "enabled": false,
     "prettyName": "Evmos",
     "chainId": "evmos_9001-1",
@@ -997,6 +1013,7 @@
   },
   {
     "name": "sifchain",
+    "cosmosDirectory": true,
     "prettyName": "Sifchain",
     "chainId": "sifchain-1",
     "prefix": "sifchain",
@@ -1035,6 +1052,7 @@
   },
   {
     "name": "lumnetwork",
+    "cosmosDirectory": true,
     "prettyName": "Lum Network",
     "chainId": "lum-network-1",
     "prefix": "lum",
@@ -1108,6 +1126,7 @@
   },
   {
     "name": "stargaze",
+    "cosmosDirectory": true,
     "prettyName": "Stargaze",
     "chainId": "stargaze-1",
     "prefix": "stars",
@@ -1165,6 +1184,7 @@
   },
   {
     "name": "comdex",
+    "cosmosDirectory": true,
     "prettyName": "Comdex",
     "chainId": "comdex-1",
     "prefix": "comdex",
@@ -1234,6 +1254,7 @@
   },
   {
     "name": "cheqd",
+    "cosmosDirectory": true,
     "prettyName": "cheqd",
     "chainId": "cheqd-mainnet-1",
     "prefix": "cheq",
