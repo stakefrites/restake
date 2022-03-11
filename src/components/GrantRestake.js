@@ -27,7 +27,6 @@ function GrantRestake(props) {
         })).finish(),
       )
     ]
-    console.log(messages)
 
     props.stargateClient.signAndBroadcast(props.address, messages).then((result) => {
       console.log("Successfully broadcasted:", result);
