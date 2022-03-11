@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { GenericAuthorization } from "cosmjs-types/cosmos/authz/v1beta1/authz";
 import { StakeAuthorization } from "cosmjs-types/cosmos/staking/v1beta1/authz";
+import { AllowedMsgAllowance, BasicAllowance } from "cosmjs-types/cosmos/authz/v1beta1/feegrant";
 import { Timestamp } from "cosmjs-types/google/protobuf/timestamp";
 
 import {
