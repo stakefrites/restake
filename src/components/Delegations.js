@@ -245,7 +245,7 @@ class Delegations extends React.Component {
 
   getTestGrant() {
     this.props.restClient
-      .getGrants(this.props.network.data.testAddress, this.props.address)
+      .getGrants(this.props.network.testAddress, this.props.address)
       .then(
         (result) => {},
         (error) => {
@@ -297,7 +297,7 @@ class Delegations extends React.Component {
     setTimeout(() => {
       this.props.getDelegations();
       this.getRewards();
-    }, 5_000);
+    }, 6_000);
   }
 
   setClaimLoading(value) {
@@ -477,7 +477,7 @@ class Delegations extends React.Component {
           <td className="d-none d-sm-table-cell">
             <Coins
               coins={delegationBalance}
-              decimals={this.props.network.data.decimals}
+              decimals={this.props.network.decimals}
             />
           </td>
           <td className="d-none d-sm-table-cell">
@@ -485,7 +485,7 @@ class Delegations extends React.Component {
               <Coins
                 key={denomRewards.denom}
                 coins={denomRewards}
-                decimals={this.props.network.data.decimals}
+                decimals={this.props.network.decimals}
               />
             )}
           </td>
